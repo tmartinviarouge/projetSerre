@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>SerreGestion.h</itemPath>
+      <itemPath>SerreMeteo.h</itemPath>
+      <itemPath>alertos.h</itemPath>
+      <itemPath>capteur.h</itemPath>
+      <itemPath>fenetre.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>SerreGestion.ui</itemPath>
+      <itemPath>SerreMeteo.ui</itemPath>
+      <itemPath>alertos.ui</itemPath>
+      <itemPath>capteur.ui</itemPath>
+      <itemPath>fenetre.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>SerreGestion.cpp.cc</itemPath>
+      <itemPath>SerreMeteo.cpp.cc</itemPath>
+      <itemPath>alertos.cpp.cc</itemPath>
+      <itemPath>capteur.cpp.cc</itemPath>
+      <itemPath>fenetre.cpp.cc</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+      </compileType>
+      <item path="SerreGestion.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SerreGestion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerreGestion.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerreMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SerreMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerreMeteo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alertos.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="alertos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alertos.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="capteur.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="capteur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="capteur.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fenetre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fenetre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fenetre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="SerreGestion.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SerreGestion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerreGestion.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerreMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SerreMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerreMeteo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alertos.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="alertos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alertos.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="capteur.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="capteur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="capteur.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fenetre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fenetre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fenetre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
